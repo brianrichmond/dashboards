@@ -5,6 +5,7 @@ Created on Thu Apr 30 18:02:00 2020
 
 @author: brianrichmond
 """
+### Built from (https://medium.com/nightingale/building-an-interactive-dashboard-in-less-than-50-lines-of-code-494b30a31905)
 
 
 import streamlit as st
@@ -13,6 +14,12 @@ import pandas as pd #will be used for processing the data
 st.title("Exploratory Dashboard")
 
 # print("hello")
+#%%
+# to activate web:  execute “dashboard.py” to see how it looks on the screen. Run the following command
+### IN TERMINAL: ###
+
+####  $ streamlit run dashboard.py  ####
+
 
 #%%
 
